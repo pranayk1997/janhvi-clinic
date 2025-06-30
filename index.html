@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dr. Janhvi’s Skin Clinic – Chiplun</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: #fff9f9;
+      color: #333;
+    }
+    header {
+      background: #ffe0ec;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      height: 60px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background: #fff;
+      border-bottom: 1px solid #ccc;
+      padding: 10px;
+    }
+    nav a {
+      text-decoration: none;
+      font-weight: 600;
+      color: #c2185b;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #c2185b;
+    }
+    .services ul {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      list-style: none;
+      padding: 0;
+    }
+    .contact {
+      background: #ffeaf2;
+      border-radius: 10px;
+      padding: 20px;
+      margin-top: 20px;
+    }
+    .popup {
+      background: #c2185b;
+      color: white;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      padding: 15px 20px;
+      border-radius: 30px;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    }
+    .popup a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+      border: 2px solid #ffd1e3;
+    }
+    .reviews input, .reviews textarea {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 8px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .reviews button {
+      background: #c2185b;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .socials a {
+      margin: 0 10px;
+      font-size: 20px;
+      text-decoration: none;
+      color: #c2185b;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="Dr. Janhvi’s Skin Clinic Logo" />
+  <h1>Dr. Janhvi’s Skin Clinic – Chiplun</h1>
+  <p>Skin • Hair • Laser • Aesthetic • Surgeries</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#reviews">Reviews</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>Welcome to Our Clinic</h2>
+  <p>At Dr. Janhvi’s Skin Clinic, we believe in results-driven, personalized skincare and haircare. With advanced technology and compassionate dermatology, we offer complete solutions – from acne, laser hair removal, aesthetic surgery to fungal infections and pigmentation.</p>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <ul>
+      <li>Laser Hair Removal</li>
+      <li>Microblading & Permanent Makeup</li>
+      <li>PRP Therapy for Hair</li>
+      <li>Acne & Dark Spot Treatment</li>
+      <li>Skin Disease Diagnosis & Cure</li>
+      <li>Skin Rejuvenation Peels</li>
+      <li>Fungal & Allergy Treatment</li>
+      <li>Scar & Stretch Mark Removal</li>
+      <li>Skin Tag & Wart Removal</li>
+      <li>Aesthetic Surgeries</li>
+      <li>Bridal Skincare</li>
+    </ul>
+  </div>
+</section>
+
+<section id="gallery">
+  <h2>Gallery – Our Results</h2>
+  <div class="gallery">
+    <img src="before1.jpg" alt="Before" />
+    <img src="after1.jpg" alt="After" />
+    <img src="before2.jpg" alt="Before" />
+    <img src="after2.jpg" alt="After" />
+  </div>
+</section>
+
+<section id="reviews">
+  <h2>Patient Reviews</h2>
+  <p>⭐⭐⭐⭐⭐ 5-Star Rated by Happy Patients</p>
+  <form class="reviews">
+    <input type="text" placeholder="Your Name" required />
+    <textarea placeholder="Your Feedback" required></textarea>
+    <input type="file" accept="image/*" />
+    <button type="submit">Submit Review</button>
+  </form>
+</section>
+
+<section id="contact">
+  <h2>Book an Appointment</h2>
+  <div class="contact">
+    <p><strong>📍 Address:</strong> Opp. Ganesh Bazar, Pag, Chiplun</p>
+    <p><strong>📞 Phone:</strong> <a href="tel:7066319733">7066319733</a></p>
+    <p><strong>📱 WhatsApp:</strong> <a href="https://wa.me/917066319733" target="_blank">Click to Chat</a></p>
+    <p><strong>📷 Instagram:</strong> <a href="https://instagram.com/dr.janhvis_clinic" target="_blank">@dr.janhvis_clinic</a></p>
+    <div class="socials">
+      <a href="https://wa.me/917066319733">💬</a>
+      <a href="https://instagram.com/dr.janhvis_clinic">📷</a>
+    </div>
+  </div>
+</section>
+
+<div class="popup">
+  📞 Need Help? Call <a href="tel:7066319733">7066319733</a> to Book Your Appointment Now!
+</div>
+
+</body>
+</html>
